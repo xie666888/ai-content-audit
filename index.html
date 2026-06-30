@@ -115,6 +115,12 @@
       color: var(--green);
     }
 
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
     .hero-note {
       margin: 16px 0 0;
       color: var(--muted);
@@ -316,7 +322,10 @@
             <span class="price">¥129</span>
             <span class="limit">收到完整资料后 48 小时交付</span>
           </div>
-          <a class="button" href="#apply">申请诊断</a>
+          <div class="actions">
+            <a class="button" href="#apply">申请诊断</a>
+            <a class="button secondary" href="sample-report.pdf" target="_blank" rel="noopener">查看交付样例</a>
+          </div>
           <p class="hero-note">不承诺涨粉或获客，不接收未脱敏的来访者及儿童资料。</p>
         </div>
       </div>
